@@ -43,3 +43,18 @@ SELECT amount, ROUND(amount, 1) FROM sample341;
 
 -- (예제3-28) NULL값을 0으로 변환하기
 SELECT a, CASE WHEN a IS NULL THEN 0 ELSE a END "a(null=0)" FROM sample37;
+
+
+-- ---------------------------------------------------------------------
+-- [4장] 데이터의 추가, 삭제, 갱신
+-- ---------------------------------------------------------------------
+
+-- (예제4-3) sample41 테이블에 행 추가하기
+INSERT INTO sample41 VALUES(1, 'ABC', '2014-01-25');
+
+-- (예제4-10) 암묵적으로 디폴트값을 가지는 행 추가하기
+INSERT INTO sample411(no) VALUES(3);
+
+-- (예제4-20) NULL 초기화
+UPDATE sample41 SET a=NULL;
+
