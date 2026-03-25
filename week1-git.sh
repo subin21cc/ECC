@@ -13,7 +13,6 @@ cd git_practice
 echo -e "\n=========================================="
 echo "🎯 [Chap 1] Git 초기 설정 (config)"
 echo "=========================================="
-# 본인의 깃허브 이름과 이메일로 변경하여 사용하세요.
 git config --local user.name "subin21cc"
 git config --local user.email "subin21cc@gmail.com"
 git config --local init.defaultBranch main
