@@ -49,3 +49,23 @@ CREATE TABLE sample62 (
   no INTGER NOT NULL,
   a VARCHAR(30),
   b DATE);
+
+-- CREATE TABLE 명령: 테이블 작성
+CREATE TABLE 테이블명 (열 정의1, 열 정의2, ...)
+
+-- DROP TABLE 명령: 테이블 삭제
+DROP TABLE 테이블명
+
+-- ALTER TABLE 명령: 테이블 변경
+ALTER TABLE 테이블명 변경명령
+
+
+-- CREATE INDEX 명령: 인덱스 작성
+CREATE INDEX 인덱스명 ON 테이블명(열명1, 열명2, ...)
+-- DROP INDEX 명령: 인덱스 삭제
+CREATE INDEX 인덱스명 ON 테이블명(열명1, 열명2, ...)
+
+-- CREATE VIEW 명령: 뷰 작성
+CREATE VIEW 뷰명 AS SELECT 명령
+-- DROP VIEW 명령: 뷰 삭제
+DROP VIEW 뷰명
