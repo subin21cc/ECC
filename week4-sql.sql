@@ -12,11 +12,12 @@ SELECT * FROM sample71_a
 UNION ALL
 SELECT * FROM sample71_b;
 
--- 내부결합
-SELECT * FROM 테이블명1 INNER JOIN 테이블명2 ON 결합조건
-
 -- 교차결합
 SELECT * FROM 테이블명1, 테이블명2
+
+-- 내부결합
+SELECT * FROM 테이블명1 INNER JOIN 테이블명2 ON 결합조건
+  
   
 -- ---------------------------------------------------------------------
 -- [8장] 데이터베이스 설계
