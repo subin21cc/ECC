@@ -1,11 +1,23 @@
 # ECC
 > 프로젝트팀 - 백엔드
 
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
+![SQL](https://img.shields.io/badge/sql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+
 <br>
 
-
 ## 📝 활동 날짜/장소
-매주 수요일 14:00 - 15:00 / 학문관-동아리방
+매주 수요일 14:00 - 15:00 / 학문관 - 동아리방
+
+<br>
+
+## 📚 참고 도서 및 강의
+- **SQL**: SQL 첫걸음
+- **Git/GitHub**: Do it! 5일 만에 끝내는 깃&깃허브 입문
+- **Spring 강의**: 스프링 입문 - 코드로 배우는 스프링 부트, 웹 MVC, DB 접근 기술
+- **Spring 도서**: 코딩 자율학습 스프링 부트 3 자바 백엔드 개발 입문
 
 <br>
 
